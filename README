@@ -1,0 +1,12 @@
+# NBA Prediction Model - Boston Celtics 🍀
+Modelo de Machine Learning desarrollado en Python para predecir el puntaje de los Boston Celtics y sus rivales en la temporada 2025-26.
+
+## Características 🚀
+- **Algoritmo**: RandomForestRegressor con 1000 estimadores.
+- **Variables**: Lags de puntos (t-1, t-2, t-3), ID del Rival y factor Back-to-Back.
+- **Data Source**: Integración en tiempo real con `nba_api`.
+
+## Instalación 🛠️
+1. Clonar el repositorio.
+2. Instalar dependencias: `pip install -r requirements.txt`.
+3. Ejecutar `python main.py`.
